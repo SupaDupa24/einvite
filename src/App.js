@@ -71,9 +71,8 @@ numberChange = (event) => {
     return (
       <div className='App'>
        <Particles
-    params={{
-      particlesOptions
-     }} />
+          className='particles'
+          params={{particlesOptions}} />
         <Header />
         <Card />
         <Form />
