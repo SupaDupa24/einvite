@@ -2,10 +2,9 @@ import React from 'react';
 import Tilt from 'react-tilt';
 import './Header.css';
 
-export default class Header extends React.Component {
-    render () {
+export default function Header () {
     return (
-        <div>
+        
             <header id="header">
                 <Tilt className="Tilt" options={{ max : 25 }} style={{ height: 250, width: 250, }} >
                         <div className="Tilt-inner">
@@ -13,7 +12,5 @@ export default class Header extends React.Component {
                         </div>
                 </Tilt>
             </header>
-        </div>
         );
     }
-}

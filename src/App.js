@@ -2,7 +2,7 @@ import React from 'react';
 import Card from './components/Card/Card';
 import Header from './components/Header/Header';
 import Form from './components/Form/Form';
-import Particles from 'react-particles-js';
+import Particles from 'react-tsparticles';
 import './App.css';
 
 
@@ -73,7 +73,7 @@ const particlesOptions = {
       }
     },
     detectRetina: true
-  }
+}
 
 const initialState = {
     name:'',
