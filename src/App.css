@@ -3,7 +3,7 @@ html, body { height: 100% }
 body {
   display: flex;
   align-items: center;
-  background-image: url(https://unsplash.com/photos/SBdmQcW8qag);
+  background-image: url('https://unsplash.com/photos/SBdmQcW8qag');
 }
 
 .particles {
