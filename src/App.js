@@ -9,7 +9,7 @@ import './App.css';
 const particlesOptions = {
     backgroundMode: {
       enable: true,
-      zIndex: 0
+      zIndex: 1
     },
     background: {
       color: "#000"
@@ -105,7 +105,7 @@ numberChange = (event) => {
     return (
       <div className='App'>
        <Particles
-          className='particles'
+          id="tsparticles"
           options={{particlesOptions}} />
         <Header />
         <Card />
