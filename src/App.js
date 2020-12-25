@@ -23,17 +23,17 @@ export default class App extends React.Component {
     this.state = {initialState}
   }
 
-nameChange = (event) => {
-    this.setState({name: event.target.value});
-  }
 
-numberChange = (event) => {
-    this.setState({number: event.target.value});
-  }
 
 loadUser = (data) => {
-  this.setState({})
+  this.setState({user: {
+    id: data.id,
+    name: data.name,
+    number: data.number
+  }})
 }
+
+
 
 
 

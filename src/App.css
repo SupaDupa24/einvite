@@ -2,6 +2,8 @@
     min-height: 100vh;
     font-size: calc(10px + 2vmin);
     color: white;
+    border: gold;
+    border-width: 10px;
 }
 
 .particles {
@@ -11,4 +13,11 @@
     bottom:0;
     left:0;
     z-index: -1;
+  }
+
+  .container {
+      background-color: white;
+      text-shadow: rgb(5, 5, 5);
+      text-decoration-style: double;
+      text-decoration-color: white;
   }

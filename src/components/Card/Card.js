@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Card.css'
 import Tilt from 'react-tilt';
 
 
@@ -9,7 +10,7 @@ export default class Card extends Component {
             <Tilt className="Tilt container br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center" options={{ max : 25 }} >
                 <div className="Tilt-inner">
                 <div id="greeting">
-                    <h3 id="greet1">This Christmas, we invite you to join us via Zoom Cloud meeting and Celebrate Christmas in a new way!</h3>
+                    <h3 id="greet1">This Christmas, we invite<span className='green'>YOU</span> to join us via Zoom Cloud meeting and Celebrate Christmas in a new way!</h3>
                 </div>
                 
                 <div id="info">

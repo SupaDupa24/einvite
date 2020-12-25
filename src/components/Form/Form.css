@@ -3,5 +3,10 @@
     border-color: #e9c928;
     border-width: 5px;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02);
-    text-shadow: gold
+    text-shadow: gold;
+    color:green;
+}
+
+.formTitle {
+    color: green;
 }
