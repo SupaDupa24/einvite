@@ -1,6 +1,6 @@
 import React from 'react';
-import Card from './components/Card/Card';
 import Banner from './components/Banner/Banner';
+import Card from './components/Card/Card';
 import Form from './components/Form/Form';
 import Thanks from './components/Thanks/Thanks';
 import Particles from 'react-tsparticles';
@@ -46,9 +46,14 @@ loadUser = (data) => {
           id="tsparticles"
           className='particles'
           options={particlesOptions} />
-        <Banner />
+        
+        <Banner
+          name={this.state.name} />
         <Card />
-        <Form />
+        <Form
+          nameChange={this.nameChange}
+          numberChange={this.numberChange}
+          onClick={this.onSubmitInvite} />
         <Thanks />
       </div>
     );

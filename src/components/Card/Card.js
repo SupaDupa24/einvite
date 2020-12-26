@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './Card.css'
 import Tilt from 'react-tilt';
+import './Card.css'
 
 
 export default class Card extends Component {
     render () {
     return (
-        <div>
+        <div className='component'>
             <Tilt className="Tilt container br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center" options={{ max : 25 }} >
                 <div className="Tilt-inner">
                 <div id="greeting">
@@ -15,7 +15,7 @@ export default class Card extends Component {
                 
                 <div id="info">
                     <div id="when">
-                        <h3>December 23, 2020</h3>
+                        <h3>December 25, 2020</h3>
                         <h2>at 2:30pm</h2>
                     </div>
                     <div id='how'>

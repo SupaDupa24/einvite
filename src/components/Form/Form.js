@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
 import './Form.css';
 
 class Form extends React.Component {
@@ -44,7 +45,7 @@ class Form extends React.Component {
             <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
               <legend className="formTitle f1 fw6 ph0 mh0">RSVP</legend>
               <div className="mt3">
-                <label className="db fw6 lh-copy f6" htmlFor="name">Name</label>
+                <label className="db fw6 lh-copy f6" htmlFor="name">Name:</label>
                 <input
                   className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100 hover-black"
                   type="text"
@@ -54,7 +55,7 @@ class Form extends React.Component {
                 />
               </div>
               <div className="mt3">
-                <label className="db fw6 lh-copy f6" htmlFor="number">Number</label>
+                <label className="db fw6 lh-copy f6" htmlFor="number">Number:</label>
                 <input
                   className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100 hover-black"
                   type="text"
@@ -64,12 +65,14 @@ class Form extends React.Component {
                 />
               </div>
             </fieldset>
+            <Button variant="contained" color="secondary">
               <button
                 onClick={this.onSubmitInvite}
                 className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib"
                 type="submit"
                 value="Submit"
               >Submit</button>
+            </Button>
                                       
           </div>
         </main>
