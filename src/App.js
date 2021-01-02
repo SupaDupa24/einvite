@@ -48,11 +48,11 @@ loadUser = (data) => {
           options={particlesOptions} />
         
         <Banner
-          name={this.state.name} />
+          props={this.state.props.name} />
         <Card />
         <Form
-          nameChange={this.nameChange}
-          numberChange={this.numberChange}
+          name={this.nameChange}
+          number={this.numberChange}
           onClick={this.onSubmitInvite} />
         <Thanks />
       </div>
