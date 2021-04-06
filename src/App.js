@@ -12,6 +12,7 @@ import './App.css';
 const initialState = {
     name:'',
     number:'',
+    isBanner: false,
 
 }
 
@@ -47,8 +48,8 @@ loadUser = (data) => {
           className='particles'
           options={particlesOptions} />
         
-        <Banner
-          props={this.state.props.name} />
+         <Banner
+            props={this.props.name} />
         <Card />
         <Form
           name={this.nameChange}
