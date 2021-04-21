@@ -26,6 +26,8 @@ export default class App extends React.Component {
 
 
 
+
+
 loadUser = (data) => {
   this.setState({user: {
     id: data.id,
